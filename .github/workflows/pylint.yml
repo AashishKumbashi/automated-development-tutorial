@@ -23,5 +23,4 @@ jobs:
     - name: Analysing the code with black and ruff
       run: |
         python -m black .
-        ruff check
-        ruff check --fix
+        ruff check --fix .
